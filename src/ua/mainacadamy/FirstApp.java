@@ -15,6 +15,7 @@ public class FirstApp {
         Circle secondCircle=new Circle();
         secondCircle.setRadius(20);
         System.out.println("circle area with radius "+secondCircle.getRadius()+" is "+secondCircle.getArea());
+
         Circle lastCircle=new Circle();
         lastCircle.setRadius(radius);
         System.out.println("circle area with radius "+lastCircle.getRadius()+" is "+lastCircle.getArea());

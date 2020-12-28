@@ -10,10 +10,11 @@ public class Square extends AbstractFinger {
     public void setSideA(double sideA) {
         this.sideA = sideA;
     }
-        @Override
-        public double getArea(){
-            return sideA*sideA;
-        }
 
+    @Override
+    public double getArea() {
+        return sideA * sideA;
     }
+
+}
 
